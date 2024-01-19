@@ -1,0 +1,81 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(135deg, #dd4814, #8e44ad); 
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .title {
+    color: #2c3e50; 
+  }
+  
+  .palindrome-div {
+    background-color: #ecf0f1; 
+    box-shadow: 0 6px 6px #bdc3c7; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  label {
+    color: #333; 
+  }
+  
+  .palindrome-btn {
+    background-color: #e74c3c; 
+    color: #fff; 
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .palindrome-input {
+    border: 2px solid #2c3e50; 
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  
+  .results-div {
+    background-color: #fff; 
+    color: #333; 
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    overflow: auto;
+  }
+  
+  .palindrome-definition-div {
+    background-color: #d35400;
+    color: #fff; 
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  
+  .palindrome-definition span[aria-label="light-bulb"] {
+    display: inline-block;
+    font-size: 1.2em;
+    margin-right: 5px;
+    transform: translateY(2px);
+  }
+  

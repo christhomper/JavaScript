@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Palindrome Checker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1 class="title">Palindrome Checker</h1>
+    <div class="palindrome-div">
+      <label for="text-input">Enter text to see if a word is a palindrome:</label>
+      <input class="palindrome-input" id="text-input" value="" type="text" />
+      <button class="palindrome-btn" id="check-btn">Check</button>
+      <div class="results-div hidden" id="result"></div>
+    </div>
+    <div class="palindrome-definition-div">
+      <p class="palindrome-definition">
+        <span role="img" aria-label="light-bulb">&#128161;</span>
+        A <dfn>palindrome</dfn> is a word or phrase that reads the same backward as forward, ignoring spaces, punctuation, and case.
+      </p>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
