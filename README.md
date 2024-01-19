@@ -1,3 +1,3 @@
 # JavaScript
 
-This repository houses straightforward JavaScript projects. Check out these projects for basic examples and practical applications of JavaScript.
+This repository houses several varying levels of JavaScript projects. Check out these projects for examples and practical applications of JavaScript.
